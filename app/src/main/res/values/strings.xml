@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CalenGroww</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="calendar">Calendar</string>
+    <string name="selectedDate">Selected Date</string>
+    <string name="weekInfo">Week Info</string>
+    <string name="setTodayDate">Set Today\'s date</string>
+    <string name="pickDate">Pick a Date</string>
+    <string name="date_info">Date Info</string>
+</resources>
