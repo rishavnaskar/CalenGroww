@@ -43,8 +43,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.today_menu, menu)
         menuInflater.inflate(R.menu.pick_date, menu)
+        menuInflater.inflate(R.menu.today_menu, menu)
         return true
     }
 

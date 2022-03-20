@@ -43,27 +43,15 @@
             tools:listitem="@layout/month_recycler_item"
             tools:orientation="horizontal" />
 
-        <TextView
-            android:id="@+id/calender_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
-            android:text="@string/calendar"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/month_recycler_view" />
-
         <LinearLayout
             android:id="@+id/days_linear_layout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="50dp"
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/calender_text_view">
+            app:layout_constraintTop_toBottomOf="@id/month_recycler_view">
 
             <TextView
                 android:layout_width="0dp"
