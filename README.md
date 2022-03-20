@@ -32,7 +32,7 @@ Vanilla Javascript/Kotlin/React Native would be preferred, no external libs allo
 ## Architecture Overview
 ```mermaid
  graph TD
-	 CalendarLibrary --> MainViewModel --> UI(MainActivity)
+	 CalendarClass --> MainViewModel --> UI(MainActivity)
  ```
 
  
